@@ -7,7 +7,7 @@ pipeline {
     stages {        
         stage('Clone') {
             steps {
-                git url: 'https://github.com/Jayesh5124/department-service.git', branch: 'department-service'
+                git url: 'https://github.com/Jayesh5124/department-service.git', branch: 'main'
             }
         }
         stage('Build') {
